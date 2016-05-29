@@ -1,5 +1,4 @@
 language: go
-
 sudo: false
 go:
   - 1.4
@@ -7,6 +6,6 @@ go:
   - 1.6
   - tip
 
-  script:
-    - go get github.com/gin-gonic/gin
-    - go get github.com/smartystreets/goconvey
+script:
+  - go get github.com/gin-gonic/gin
+  - go get github.com/smartystreets/goconvey
