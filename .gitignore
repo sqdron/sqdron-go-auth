@@ -19,6 +19,8 @@ _cgo_export.*
 
 _testmain.go
 
+*app.json
+
 *.exe
 *.test
 *.prof
@@ -42,3 +44,5 @@ dist/
 .idea/sqlDataSources.xml
 .idea/dynamic.xml
 .idea/uiDesigner.xml
+
+
