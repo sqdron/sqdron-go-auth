@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"./middleware"
+	"github.com/sqdron/sqdron-go-auth/middleware"
 	"log"
 	"os"
 )
