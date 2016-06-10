@@ -1,4 +1,4 @@
-package providers
+package facebook
 
 import (
 	"net/url"
@@ -87,8 +87,5 @@ func handleFacebookCallback(w http.ResponseWriter, r *http.Request) {
 	http.Redirect(w, r, "/", http.StatusTemporaryRedirect)
 }
 
-type facebookController interface {
-	handleMain()
-	handleFacebookLogin()
-	handleFacebookCallback()
-}
+
+
