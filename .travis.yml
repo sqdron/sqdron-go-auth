@@ -6,6 +6,4 @@ go:
   - tip
 
 script:
-  - go get github.com/gin-gonic/gin
-  - go get golang.org/x/oauth2
   - go get github.com/smartystreets/goconvey
